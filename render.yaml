@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: reaper-ai-api
+    env: docker
+    plan: starter
+    autoDeploy: true

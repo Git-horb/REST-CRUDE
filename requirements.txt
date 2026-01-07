@@ -10,8 +10,9 @@ diffusers==0.27.2
 transformers==4.40.0
 accelerate==0.29.3
 huggingface_hub==0.20.3
+numpy==1.26.2          # <--- REQUIRED
 
-# FastAPI form/file support (REQUIRED)
+# FastAPI form/file support
 python-multipart==0.0.9
 
 # Utils

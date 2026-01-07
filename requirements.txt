@@ -11,6 +11,9 @@ transformers==4.40.0
 accelerate==0.29.3
 huggingface_hub==0.20.3
 
+# FastAPI form/file support (REQUIRED)
+python-multipart==0.0.9
+
 # Utils
 Pillow==10.3.0
 httpx==0.27.0

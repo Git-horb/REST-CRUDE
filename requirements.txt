@@ -1,9 +1,16 @@
 fastapi==0.110.0
 uvicorn[standard]==0.29.0
+
+# PyTorch CPU
 torch==2.2.2+cpu
 torchvision==0.17.2+cpu
+
+# AI libs
 diffusers==0.27.2
 transformers==4.40.0
 accelerate==0.29.3
+huggingface_hub==0.20.3
+
+# Utils
 Pillow==10.3.0
 httpx==0.27.0
